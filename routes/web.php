@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('auth.login');
 });
+
+Route::get('/form', function () {
+    return view('auth.form');
+});
+
+Route::get('/datatemuan', function () {
+    return view('auth.datatemuan');
+});
+
+Route::get('/detail', function () {
+    return view('auth.detail');
+});
